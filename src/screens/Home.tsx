@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
-import Icon from './../components/Icon';
+import Icon from '../components/Icon';
 import LoginButton from '../components/LoginButton';
 
 // or any files within the Snack
-import TextBox from './../components/TextBox';
+import TextBox from '../components/TextBox';
 
 export default function App() {
   return ( 

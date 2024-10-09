@@ -1,9 +1,11 @@
+import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
+import SnackIcon from '../../assets/snack-icon.png';
 
 export default function Icon() {
   return (
     <View style={styles.container}>      
-      <Image style={styles.logo} source={require('/assets/snack-icon.png')} />
+      <Image source={SnackIcon} style={styles.logo}/>
       <Text style={styles.paragraph}>
         MEU APP
       </Text>
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
     marginTop: 0,
     fontSize: 48,
     fontWeight: 'bold',
-    textAlign: 'center',
+    textAlign: 'center'
   },
   logo: {
     height: 128,
