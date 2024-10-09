@@ -1,4 +1,4 @@
-import { View, Text, Button, Image, StyleSheet } from 'react-native';
+import { Button } from 'react-native';
 
 export default function LoginButton() {
   return ( 
