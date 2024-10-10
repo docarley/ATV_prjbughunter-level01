@@ -1,9 +1,9 @@
 // or any files within the Snack
-import Home from './screens/Home';
+import Home from './src/screens/Home/Home';
 
 export default function App() {
   return (
-     <Home/>
+     <Home />
   );
 }
 
