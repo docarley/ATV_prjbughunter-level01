@@ -6,7 +6,8 @@ export const styles = StyleSheet.create({
       justifyContent: 'center',
       paddingVertical:24,
       backgroundColor:'#ccc',
-      width:'100%'
+      width:'100%',
+      gap: 16
     },
     paragraph: {
       margin: 24,

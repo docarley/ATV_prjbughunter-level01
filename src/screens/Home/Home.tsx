@@ -11,7 +11,7 @@ export default function Home() {
         <Icon/>
         <Text style={styles.text}>Login</Text>
         <TextBox/>
-        <Text>Senha</Text>
+        <Text style={styles.text}>Senha</Text>
         <TextBox/>
         <Button title="Login" color="#000"/>
      </View>
